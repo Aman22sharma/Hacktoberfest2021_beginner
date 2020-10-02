@@ -16,16 +16,16 @@ example: Data-types_Aman22sharma.py
 Make a Pull Request for your changes and wait to be merged.
 
 # How to Begin
-0. Star this repository
+#### 0. Star this repository
 
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art (1)](https://user-images.githubusercontent.com/40789486/94896288-c3270d80-04aa-11eb-80d7-34478a28356a.gif)
 
 - :star::star::star: Star this repository have fun! :star::star::star:
-1. Fork this repository
+#### 1. Fork this repository
 
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art](https://user-images.githubusercontent.com/40789486/94896128-64fa2a80-04aa-11eb-917d-cdd0a80d55f1.gif)
 
-2. Clone this repo to your local environment
+#### 2. Clone this repo to your local environment
 
 
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art (2)](https://user-images.githubusercontent.com/40789486/94896740-d1c1f480-04ab-11eb-85b9-2099ddd520dd.gif)
@@ -34,14 +34,14 @@ Make a Pull Request for your changes and wait to be merged.
 git clone https://github.com/your-username/hacktoberfest-beginner.git
 ```
 
-3. Create a branch
+#### 3. Create a branch
 ```markdown
 git checkout -b your-branch-name
 ```
 
-4. Make your addition to the `Profile` and `Hello World` directories
+#### 4. Make your addition to the Python3 concepts in `Python3-Learn` directories
 
-5. Commit and Push your changes
+#### 5. Commit and Push your changes
 ```markdown
 git add .
 git commit -m 'commit message'
@@ -66,3 +66,5 @@ git push origin your-branch-name
 
 
 # HAPPY Hacktoberfest!
+![1_Zgzm5Dw86UPNlSLeyUAoyw](https://user-images.githubusercontent.com/40789486/94897225-cfac6580-04ac-11eb-9e58-79d821976848.gif)
+
