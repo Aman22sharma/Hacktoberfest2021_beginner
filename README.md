@@ -10,14 +10,6 @@ example: hello_world_Aman22sharma.js
 example: Variables_yourusername.js
 example: Data-types_Aman22sharma.js
 ```
-```markdown
-// AUTHOR: Your Name
-// Python3 Concept: your python3 concept that you want to add (ex: variable,datatypes etc)
-// GITHUB: your github profile link
-
-//Add your python3 concept below
-```
-
 
 - You can not add the same concepts again so, make sure whatever concept you are going to add check it onece and add new concepts
 
