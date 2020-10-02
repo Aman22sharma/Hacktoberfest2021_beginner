@@ -2,8 +2,6 @@
 // Python3 Concept: Datatypes
 // GITHUB: https://github.com/devnarayanp02
 
-//Add your python3 concept below
-
 #Standard Data Types in Python :
 #Python Numbers
 var1 = 50
