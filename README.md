@@ -1,6 +1,6 @@
 # Hacktoberfest2020 Repo for Biginners
-
-# How You Can Contribute to this repo
+![HF2020 Events 1600x400 Centered](https://user-images.githubusercontent.com/40789486/94894828-c371d980-04a7-11eb-9374-9da9dd1b95b6.png)
+## How You Can Contribute to this repo
 Adding to follow for Python Concepts is below under `Format`
 1. Add your Python3 Concepts in the respective `Python3-Learn` directory
 
