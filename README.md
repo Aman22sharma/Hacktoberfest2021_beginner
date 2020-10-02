@@ -6,9 +6,9 @@ Adding to follow for Python Concepts is below under `Format`
 
 ### Name of File: python3-concept-name_yourusername.py
 ```markdown
-example: hello_world_Aman22sharma.js
-example: Variables_yourusername.js
-example: Data-types_Aman22sharma.js
+example: hello_world_Aman22sharma.py
+example: Variables_yourusername.py
+example: Data-types_Aman22sharma.py
 ```
 
 - You can not add the same concepts again so, make sure whatever concept you are going to add check it onece and add new concepts
