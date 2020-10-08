@@ -1,6 +1,9 @@
 import random
 
-def diceroll(quantity:int, sides:str):
+def diceroll():
+    sides = input("What die type: ")
+    quantity = input("How many: ")
+    total = 0
     if sides == "d4":
         die = 4
     elif sides == "d6":
@@ -16,9 +19,8 @@ def diceroll(quantity:int, sides:str):
     else:
         print("That is not a die type")
 
-    for i in range(quantity):
+    for i in quantity:
         result = (random.randint(1, die))
         print(i, sides, " = ", result)
         total = total + result
-    print("Roll result: ", total)
-
+    return total
