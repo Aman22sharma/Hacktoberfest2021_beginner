@@ -1,3 +1,4 @@
+"""The purpose of this program is to roll a quantity number of die type dice and provide the user with the results"""
 import random
 
 die = input("What die type (default is d6): ") or "d6"
@@ -5,6 +6,7 @@ quantity = input("How many (default is 1): ") or 1
 quantity = int(quantity)
 total = 0
 
+#There is probably a more eliegant way to do this but I don't know how
 if die == "d4":
    sides = 4
 elif die == "d6":
