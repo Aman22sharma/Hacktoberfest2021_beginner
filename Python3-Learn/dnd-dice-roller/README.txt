@@ -1,0 +1,1 @@
+This ia a program that prompts the user to enter a die type (d4 through d100) and a quantity and then provides the results of those dice rolls.  If nothing is entered the program defaults to "d6" for die type and 1 for quantity.
