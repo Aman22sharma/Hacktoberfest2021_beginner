@@ -39,7 +39,7 @@ git clone https://github.com/your-username/hacktoberfest-beginner.git
 git remote add upstream https://github.com/Aman22sharma/Hacktoberfest2020_beginner.git
 git pull upstream master
 ```
-#### 4. Create a branch
+#### 4. Make your addition to the Python3 concepts in `Python3-Learn` directories
 ```markdown
 git checkout -b your-branch-name
 ```
@@ -48,7 +48,7 @@ git checkout -b your-branch-name
 git pull upstream master
 ```
 
-#### 6. Make your addition to the Python3 concepts in `Python3-Learn` directories
+#### 6. Create a branch
 
 #### 7. Commit and Push your changes
 ```markdown
