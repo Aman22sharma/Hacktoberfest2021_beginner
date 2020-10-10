@@ -11,7 +11,7 @@ example: Variables_yourusername.py
 example: Data-types_Aman22sharma.py
 ```
 
-- You can not add the same concepts again so, make sure whatever concept you are going to add check it onece and add new concepts
+- You can not add the same concepts again so, make sure whatever concept you are going to add check it once and add new concepts
 
 Make a Pull Request for your changes and wait to be merged.
 
@@ -34,14 +34,23 @@ Make a Pull Request for your changes and wait to be merged.
 git clone https://github.com/your-username/hacktoberfest-beginner.git
 ```
 
-#### 3. Create a branch
+#### 3. Set your streams (For sync your clone with the original repo)
+```markdown
+git remote add upstream https://github.com/Aman22sharma/Hacktoberfest2020_beginner.git
+git pull upstream master
+```
+#### 4. Create a branch
 ```markdown
 git checkout -b your-branch-name
 ```
+#### 5. Pull from the upstream again (This is to ensure we still have the latest code)
+```markdown
+git pull upstream master
+```
 
-#### 4. Make your addition to the Python3 concepts in `Python3-Learn` directories
+#### 6. Make your addition to the Python3 concepts in `Python3-Learn` directories
 
-#### 5. Commit and Push your changes
+#### 7. Commit and Push your changes
 ```markdown
 git add .
 git commit -m 'commit message'
