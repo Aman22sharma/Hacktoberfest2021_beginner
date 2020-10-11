@@ -40,16 +40,14 @@ git remote add upstream https://github.com/Aman22sharma/Hacktoberfest2020_beginn
 git pull upstream master
 ```
 #### 4. Make your addition to the Python3 concepts in `Python3-Learn` directories
+#### 5. Create a branch
 ```markdown
 git checkout -b your-branch-name
 ```
-#### 5. Pull from the upstream again (This is to ensure we still have the latest code)
+#### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
 git pull upstream master
 ```
-
-#### 6. Create a branch
-
 #### 7. Commit and Push your changes
 ```markdown
 git add .
