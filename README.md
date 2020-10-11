@@ -51,7 +51,7 @@ git pull upstream master
 #### 7. Commit and Push your changes
 ```markdown
 git add .
-git commit -m 'commit message'
+git commit -m "commit message"
 git push origin your-branch-name
 ```
 
