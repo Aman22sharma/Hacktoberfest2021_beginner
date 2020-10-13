@@ -1,3 +1,7 @@
+# AUTHOR: Tanmay Khandelwal
+# Python3 Concept: all primes upto n
+# GITHUB: github.com/Dude-901
+
 # Sieve Theorem
 from math import *
 
