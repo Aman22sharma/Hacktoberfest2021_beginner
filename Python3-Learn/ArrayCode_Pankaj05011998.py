@@ -1,4 +1,8 @@
-#
+// AUTHOR: Pankaj
+// Python3 Concept: Array in python
+// GITHUB: https://github.com/Pankaj05011998
+
+//Add your python3 concept below
 # 1) Insertion, deletion and random access of array
 # 2) Assumes int for element type
 #
