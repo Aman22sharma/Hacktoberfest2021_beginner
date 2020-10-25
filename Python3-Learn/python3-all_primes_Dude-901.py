@@ -3,20 +3,19 @@
 # GITHUB: github.com/Dude-901
 
 # Sieve Theorem
-from math import *
 
-def primes(n):
-    pr = [True] * (n+1)
-    pr[0] = False
-    pr[1] = False
-    for x in range(2, int(sqrt(n))+1):
-        if pr[x] == True:
-            for i in range(x*x,n+1,x):
-                pr[i] = False
-    for i in range(len(pr)):
-        if pr[i] == True:
-            print(i, end=" ")
+def sieve(p, n):
+    for i in range(3, n+1, 2):
+        p[i] = 1
+    for i in range(3, n+1, 2):
+        if p[i] == 1:
+            for j in range(i*i, n+11, i):
+                p[j] = 0
+
+    p[2] = 1
+    return p
 
 for _ in range(int(input())):
     n = int(input())
-    primes(n)
+    p = [0]*(n+1)
+    p = sieve(p, n)
