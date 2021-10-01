@@ -32,7 +32,7 @@ Make a Pull Request for your changes and wait to be merged.
 
 ```markdown
 git clone https://github.com/your-username/hacktoberfest-beginner.git
-cd Hacktoberfest2020_beginner
+cd Hacktoberfest2021_beginner
 ```
 
 #### 3. Set your streams (For sync your clone with the original repo)
