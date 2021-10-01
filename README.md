@@ -37,7 +37,7 @@ cd Hacktoberfest2020_beginner
 
 #### 3. Set your streams (For sync your clone with the original repo)
 ```markdown
-git remote add upstream https://github.com/Aman22sharma/Hacktoberfest2020_beginner.git
+git remote add upstream https://github.com/Aman22sharma/Hacktoberfest2021_beginner.git
 git pull upstream master
 ```
 #### 4. Make your addition to the Python3 concepts in `Python3-Learn` directories
