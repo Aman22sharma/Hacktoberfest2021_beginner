@@ -18,17 +18,17 @@ Make a Pull Request for your changes and wait to be merged.
 # How to Begin
 #### 0. Star this repository
 
-![Copy of Colorful Neon Marble Gaming YouTube Channel Art (1)](https://user-images.githubusercontent.com/40789486/94896288-c3270d80-04aa-11eb-80d7-34478a28356a.gif)
+![Copy of Colorful Neon Marble Gaming YouTube Channel Art (1)](https://user-images.githubusercontent.com/40789486/135642232-bfb074a4-fd32-4fa9-84d7-507f72fbaa2a.gif)
 
 - :star::star::star: Star this repository have fun! :star::star::star:
 #### 1. Fork this repository
 
-![Copy of Colorful Neon Marble Gaming YouTube Channel Art](https://user-images.githubusercontent.com/40789486/94896128-64fa2a80-04aa-11eb-917d-cdd0a80d55f1.gif)
+![Copy of Colorful Neon Marble Gaming YouTube Channel Art](https://user-images.githubusercontent.com/40789486/135641797-e71ee5a7-7a4c-4130-8376-2ea2e8ea68e5.gif)
 
 #### 2. Clone this repo to your local environment
 
 
-![Copy of Colorful Neon Marble Gaming YouTube Channel Art (2)](https://user-images.githubusercontent.com/40789486/94896740-d1c1f480-04ab-11eb-85b9-2099ddd520dd.gif)
+![Copy of Colorful Neon Marble Gaming YouTube Channel Art (2)](https://user-images.githubusercontent.com/40789486/135642597-fde41ce7-13d3-4021-8350-7fee3f99ad31.gif)
 
 ```markdown
 git clone https://github.com/your-username/hacktoberfest-beginner.git
