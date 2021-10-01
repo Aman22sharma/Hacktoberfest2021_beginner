@@ -1,4 +1,4 @@
-# Hacktoberfest2020 Repo for Beginners
+# Hacktoberfest2021 Repo for Beginners
 ![HF2020 Events 1600x400 Centered](https://user-images.githubusercontent.com/40789486/135643400-72926541-6437-4ed6-b81a-77cfadbebafb.png)
 ## How You Can Contribute to this repo
 Adding to follow for Python Concepts is below under `Format`
