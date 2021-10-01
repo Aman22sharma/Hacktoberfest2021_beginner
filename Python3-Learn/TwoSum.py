@@ -1,3 +1,7 @@
+#AUTHOR: Pornpimol Kaewphing
+#Python3 Concept: Twosum in Python
+#GITHUB: https://github.com/gympohnpimol
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         ls = []
