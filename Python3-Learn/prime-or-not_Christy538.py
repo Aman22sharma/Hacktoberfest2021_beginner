@@ -1,3 +1,8 @@
+// AUTHOR: Christy Thomas
+// Python3 Concept: Basic concept (Condition and for loop)
+// GITHUB: github.com/christy538
+
+
 '''Python Program to check if a number is prime or not 
 
 What is a prime number?
