@@ -1,6 +1,6 @@
-# AUTHOR: Surya Wiguna
+# AUTHOR: Critical07
 # Python3 Concept: Discount calculator
-# GITHUB: https://github.com/suryawiguna
+# GITHUB: https://github.com/Critical07
 
 #discount calculator code
 print("<----Count your final price after discount---->")
