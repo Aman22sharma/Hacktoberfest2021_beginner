@@ -1,0 +1,14 @@
+# Reverse Cipher
+# Make any necessary changes if you must
+
+Plaintext = 'A message to encrypt using this reverse Cipher Program'
+Cipher = ''
+
+i = len(Plaintext) - 1
+while i >= 0:
+    Cipher = Cipher + Plaintext[i]
+    i = i - 1
+print("_____________")
+print(Cipher)
+print("_____________")
+print("Exiting process")
