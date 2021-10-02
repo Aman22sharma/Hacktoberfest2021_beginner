@@ -1,3 +1,8 @@
+# AUTHOR: Priyanshu Pathak
+# Python3 Concept: Data-Structure -- > Stack
+# GITHUB: https://github.com/priyanshu-28
+
+#Add your python3 concept below
 #Stack
 #A stack is a linear data structure
  
