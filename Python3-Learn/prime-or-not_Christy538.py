@@ -1,15 +1,14 @@
 // AUTHOR: Christy Thomas
 // Python3 Concept: Basic concept (Condition and for loop)
-// GITHUB: github.com/christy538
+// GITHUB: https://github.com/Christy538
 
 
-'''Python Program to check if a number is prime or not 
+'''Question: Python Program to check if a number is prime or not 
 
 What is a prime number?
 A positive integer greater than 1 which has no other factors except 1 and the number itself is called a prime number.
 2, 3, 5, 7 etc. are prime numbers as they do not have any other factors
 '''
-
 
 num = int(input("Enter a number: "))
 
