@@ -1,3 +1,7 @@
+# AUTHOR: Neethu Joji George
+# Python3 Concept: quicksort
+# GITHUB: https://github.com/srikar999
+
 def partition(lst,start,end):
     pivot=lst[start]
     pivot_index=start
