@@ -1,3 +1,7 @@
+# AUTHOR: Deepthi Sudharsan
+# Python3 Concept: Burrow Wheeler and Inverse Burrow Wheeler
+# GITHUB: https://github.com/DeepthiSudharsan
+
 def BWT(input):
     assert "$" not in input
     input = input + "$"
