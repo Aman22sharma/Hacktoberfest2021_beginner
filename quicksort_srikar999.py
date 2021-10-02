@@ -1,4 +1,4 @@
-# AUTHOR: Neethu Joji George
+# AUTHOR: Srikar
 # Python3 Concept: quicksort
 # GITHUB: https://github.com/srikar999
 
