@@ -1,3 +1,6 @@
+# // AUTHOR: Devnarayan Patel
+# // Python3 Concept: Fibonacci Sequence
+# // GITHUB: https://github.com/devnarayanp02
 # Function for nth fibonacci number - Dynamic Programming
 # Taking 1st two fibonacci numbers as 0 and 1
 
@@ -14,5 +17,5 @@ def fibonacci(n):
 		return temp_fib
 
 # Driver Program
-
-print(fibonacci(9))
+a = int(input("Enter Series Number to find Fibonacci Number : "))
+print(fibonacci(a))
