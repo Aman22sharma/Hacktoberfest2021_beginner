@@ -1,8 +1,6 @@
-#Josephus Problem
-
-# The Josephus problem, where 100 people standing in a circle, 1 kills 2 passes the sword to 3….who survives in the end?
-
-#Python Solution
+# AUTHOR: Tanmay Khandelwal
+# Python3 Concept: The Josephus problem, where 100 people standing in a circle, 1 kills 2 passes the sword to 3….who survives in the end?
+# GITHUB: github.com/Tanmay-901
 
 from sys import stdin,stdout                          
 
