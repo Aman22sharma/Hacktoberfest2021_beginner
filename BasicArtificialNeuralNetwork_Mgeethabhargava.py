@@ -1,3 +1,10 @@
+# AUTHOR: Mandava Geetha Bhargava
+# Python3 Concept: Basic Artificial Neural Network using python
+# GITHUB: https://github.com/Mgeethabhargava
+
+#Neural Network code
+
+
 # Use scikit-learn to grid search the batch size and epochs
 import numpy
 from sklearn.model_selection import GridSearchCV
