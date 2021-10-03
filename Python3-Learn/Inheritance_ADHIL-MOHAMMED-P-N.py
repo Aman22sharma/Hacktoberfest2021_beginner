@@ -1,3 +1,9 @@
+#// AUTHOR: Adhil Mohammed P N
+#// Python3 Concept: Inheritance in python
+#// GITHUB: https://github.com/ADHIL-MOHAMMED-P-N
+
+#//Add your python3 concept below
+
 class Person(object):
 	
 	def __init__(self, name):
