@@ -1,3 +1,7 @@
+// AUTHOR: Sanket Khadse
+// Python3 Concept: Spirally traversing a matrix
+// GITHUB: https://github.com/edusanketdk
+
 def sol_1(mat: list) -> list:
     u, r, d, l, dir = 0, len(mat[0]), len(mat), 0, 0
     ans = []
