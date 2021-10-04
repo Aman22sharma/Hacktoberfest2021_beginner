@@ -11,6 +11,7 @@ Find the pair of movies with the longest total duration and return they indexes.
 
 #GITHUB: https://github.com/CharalambosIoannou
 
+# Function
 def flightDetails(arr, k):
 	k-=30
 	arr = sorted(arr)
@@ -29,6 +30,7 @@ def flightDetails(arr, k):
 	return(arr[i],arr[j])
 
 
+# Main
 if __name__ == '__main__':
 	arr = [90, 85, 75, 60, 120, 150, 125]
 	k = 250
