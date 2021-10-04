@@ -1,3 +1,9 @@
+#Author:Varsha Gupta
+#Python3 concept: Stone paper scissors game using python
+#GITHUB: https://github.com/varsha080
+
+
+
 import random
 b='y'
 
