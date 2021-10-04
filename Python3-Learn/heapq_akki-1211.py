@@ -1,7 +1,6 @@
-# Python code to demonstrate working of
-# heapify(), heappush() and heappop()
-
-# importing "heapq" to implement heap queue
+// AUTHOR: Akshat Parekh
+// Python3 Concept: heap data structure using heapq in python
+// GITHUB: https://github.com/akki-1211
 import heapq
 
 # initializing list
