@@ -1,3 +1,7 @@
+#AUTHOR:  GOURAV CHAWLA 
+#Python3 Concept: Simple ATM in Python
+#GITHUB: https://github.com/gouravchawla334
+
 while True:
     balance=10000;
     print("                         <<--        Welcome to ATM      -->>                         ")
