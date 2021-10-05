@@ -1,3 +1,6 @@
+#AUTHOR:  Farrah Akram 
+#Python3 Concept: Simple ATM in Python
+#GITHUB: https://github.com/krosskid12
 while True:
     balance=10000;
     print("                         <<--        Welcome to  Github ATM      -->>                         ")
