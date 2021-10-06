@@ -41,7 +41,6 @@ example: Data-types_Aman22sharma.py
     <h6 align="center">Shruti Shastri<br>Software Engineer<br>@StartupEd, Delhi (India)</h6>
   </td>
 </tr>
-<tr>
 </table>
 
 - You can not add the same concepts again so, make sure whatever concept you are going to add check it once and add new concepts
