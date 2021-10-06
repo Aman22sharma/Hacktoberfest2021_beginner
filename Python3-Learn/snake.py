@@ -1,99 +1,60 @@
-from random import randint
-from sense_hat import SenseHat, ACTION_RELEASED
-import time
+//Author : Arayan Gupta
+//Python Concept : Snake game 
+//Github : https://github.com/Arayan1906
+from turtle import *
+import turtle
+from random import randrange
+from freegames import square, vector
 
-sense = SenseHat()
-lastDirection='left';
-red = (255, 0, 0);
-green = (0, 255, 0);
-blue = (0, 0, 255);
-off= (0,0,0);
-points=0;
-sense.clear();
+turtle.bgcolor("black")
+food = vector(0, 0)
+snake = [vector(10, 0)]
+aim = vector(0, -10)
 
-def newFruit():
-	global snake;
-	global fruit;
-	newFindFruit = True;
-	while newFindFruit:
-		x = randint(0, 7);
-		y = randint(0, 7);
-		fruit = Point(x,y);
-		if not checkIfPointInside(snake, fruit, 0):
-			newFindFruit = False;
-	sense.set_pixel(x, y, blue)
+def change(x, y):
+    "Change snake direction."
+    aim.x = x
+    aim.y = y
 
-def checkIfPointInside(snake, point, startIndex):
-	for index in range(startIndex,len(snake)):
-		if snake[index].x_pos == point.x_pos and snake[index].y_pos == point.y_pos:
-			return True;
-	return False;
+def inside(head):
+    "Return True if head inside boundaries."
+    return -250 < head.x < 230 and -250 < head.y < 230
 
-class Point:
-	global lastDirection;
-	global gamePad;
+def move():
+    "Move snake forward one segment."
+    head = snake[-1].copy()
+    head.move(aim)
 
-	def __init__(self, x,y):
-		self.x_pos=x;
-		self.y_pos=y;
-		sense.set_pixel(self.x_pos, self.y_pos, green)
+    if not inside(head) or head in snake:
+        square(head.x, head.y, 9, 'red')
+        update()
+        return
 
-	def updateFirstPoint(self):
-		if lastDirection =='left':
-			self.x_pos = (self.x_pos-1) % 8;
-		elif lastDirection =='right':
-			self.x_pos = (self.x_pos+1) % 8;
-		elif lastDirection =='down':
-			self.y_pos = (self.y_pos+1) % 8;
-		elif lastDirection =='up':
-			self.y_pos = (self.y_pos-1) % 8;
-		self.pointOn(red);
-	def pointOff(self):
-		sense.set_pixel(self.x_pos, self.y_pos, off)
+    snake.append(head)
 
-	def pointOn(self, color):
-		sense.set_pixel(self.x_pos, self.y_pos, color)
+    if head == food:
+        print('Snake:', len(snake))
+        food.x = randrange(-15, 15) * 10
+        food.y = randrange(-15, 15) * 10
+    else:
+        snake.pop(0)
 
-gameOver = False;
-snake = [Point(4,4),Point(5,4)]
-newFruit();
-while True:
-	while not gameOver:
-		for event in sense.stick.get_events():
-			if event.action == ACTION_RELEASED:
-				if event.direction == 'left' and lastDirection != 'right':
-					lastDirection = event.direction;
-				elif event.direction == 'right' and lastDirection != 'left':
-					lastDirection = event.direction;
-				elif event.direction == 'up' and lastDirection != 'down':
-					lastDirection = event.direction;
-				elif event.direction == 'down' and lastDirection != 'up':
-					lastDirection = event.direction;
+    clear()
 
-		for index in range ((len(snake)-1),0,-1):
-			if index == (len(snake)-1):
-				snake[index].pointOff();
-			snake[index].x_pos=snake[index-1].x_pos;
-			snake[index].y_pos=snake[index-1].y_pos;
-			snake[index].pointOn(green);
-		snake[0].updateFirstPoint();
-		if checkIfPointInside(snake, snake[0], 1):
-			sense.show_message("GameOver, Points: %d" %(points), text_colour=[200, 0, 200])
-			gameOver=True;
-			points=0;
-		if snake[0].x_pos == fruit.x_pos and snake[0].y_pos == fruit.y_pos:
-			snake.append(Point( snake[len(snake)-1].x_pos, snake[len(snake)-1].y_pos))
-                        points +=1;
-                        if points < 62 :
-                            newFruit();
-                        if points >= 62:
-                            gameOver=True;
-                            sense.show_message("GameOver, Points: %d" %(points), text_colour=[200,0,200]);
-                            points=0;
-		time.sleep(0.5);
-	time.sleep(1.0);
-	for event in sense.stick.get_events():
-		if event.action == ACTION_RELEASED and event.direction == 'middle':
-			gameOver=False;
-			snake = [Point(4,4),Point(5,4)]
-			newFruit();
+    for body in snake:
+        square(body.x, body.y, 9, 'green')
+
+    square(food.x, food.y, 9, 'red')
+    update()
+    ontimer(move, 100)
+
+
+hideturtle()
+tracer(False)
+listen()
+onkey(lambda: change(10, 0), 'Right')
+onkey(lambda: change(-10, 0), 'Left')
+onkey(lambda: change(0, 10), 'Up')
+onkey(lambda: change(0, -10), 'Down')
+move()
+done()
