@@ -31,7 +31,7 @@ Make a Pull Request for your changes and wait to be merged.
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art (2)](https://user-images.githubusercontent.com/40789486/135642597-fde41ce7-13d3-4021-8350-7fee3f99ad31.gif)
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest-beginner.git
+git clone https://github.com/your-username/Hacktoberfest2021-beginner.git
 cd Hacktoberfest2021_beginner
 ```
 
