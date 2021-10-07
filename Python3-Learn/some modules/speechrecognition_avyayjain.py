@@ -1,3 +1,7 @@
+// AUTHOR: Avyay Jain
+// Python3 Concept: (calculator)
+// GITHUB: https://github.com/avyayjain
+
 import speech_recognition as sr
 import datetime as dt
 
