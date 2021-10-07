@@ -2,7 +2,6 @@
 # Python3 Concept: PDF to text and text narration
 # GITHUB: https://github.com/homeboy445
 
-
 # PDF reader:
 # Let your computer do the story telling!
 
@@ -13,7 +12,7 @@
 # Linux: pip install pyttsx3 && pip install pdftotext && python3 Mainer.py
 # Windows: pip install pyttsx3, pip install pdftotext, python3 Mainer.py
 
-# Note: If this package "pdftotext" doesn't seem to work and/or you couldn't find it! you should search online how to install this on your respective machine...
+# Note: If this package "pdftotext" doesn't seem to work and/or you couldn't find it! please search online on how to install this on your respective machine...
 
 import pyttsx3
 import pdftotext
