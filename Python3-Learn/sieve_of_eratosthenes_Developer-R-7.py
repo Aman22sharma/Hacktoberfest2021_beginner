@@ -1,5 +1,8 @@
-# Python program to print all primes smaller than or equal to
-# n using Sieve of Eratosthenes
+# AUTHOR: Rushi Patel
+# Python3 Concept: Sieve of Eratosthenes (To find prime number between given range)
+# GITHUB: https://github.com/Developer-R-7 
+
+
  
 def SieveOfEratosthenes(n):
     prime = [True for i in range(n + 1)]
