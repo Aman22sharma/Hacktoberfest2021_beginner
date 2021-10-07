@@ -2,7 +2,6 @@
 // Python3 Concept: (calculator)
 // GITHUB: https://github.com/avyayjain
 
-//Add your python3 concept below
 
 import operator
 
