@@ -1,5 +1,8 @@
+# AUTHOR: Akash Rajak
+# Python3 Concept: Matrix Transpose
+# GITHUB: https://github.com/akash435
 
-# Matrix Transpose Program
+# Add your python3 concept below
 
 def matrix_transpose():
 	for i in range(len(A)):
