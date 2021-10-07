@@ -1,3 +1,7 @@
+// AUTHOR: Sahil Negi
+// Python3 Concept: (Multiple assignments in python)
+// GITHUB: https://github.com/Sahilnegi-code
+
 # Multiple assignments
 
 
