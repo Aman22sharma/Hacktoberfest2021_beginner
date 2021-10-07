@@ -1,3 +1,7 @@
+# AUTHOR : Swairik Dey
+# Python3 Concept : Face and Body Detection using mediapipe
+# GITHUB : https://github.com/swairik
+
 import mediapipe as mp
 import cv2
 import sys
