@@ -1,3 +1,9 @@
+// AUTHOR: Vighnesh 
+// Python3 Concept: Creating SQL table using Python
+// GITHUB: github.com/passionlord
+
+
+
 import  pymysql as ps
 
 try:
