@@ -1,4 +1,6 @@
-# Python program to segregate even and odd elements of array
+# AUTHOR: Parth Kholkute
+# Python3 Concept: Array Rotation
+# GITHUB: github.com/mephisto2975
  
 def segregateEvenOdd(arr):
  

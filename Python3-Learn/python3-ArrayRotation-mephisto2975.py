@@ -1,3 +1,7 @@
+# AUTHOR: Parth Kholkute
+# Python3 Concept: Array Rotation
+# GITHUB: github.com/mephisto2975
+
 # function to rotate array by d elements using temp array
 def rotateArray(arr, n, d):
     temp = []
