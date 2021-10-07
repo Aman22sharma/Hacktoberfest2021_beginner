@@ -1,3 +1,7 @@
+// AUTHOR: Avyay Jain
+// Python3 Concept: (calculator)
+// GITHUB: https://github.com/avyayjain
+
 import wikipedia as wiki
 
 n = input('Enter What You want to search : ')
