@@ -1,3 +1,7 @@
+// AUTHOR: Avyay Jain
+// Python3 Concept: (calculator)
+// GITHUB: https://github.com/avyayjain
+    
 import smtplib 
 from email.mime.multipart import MIMEMultipart
 
