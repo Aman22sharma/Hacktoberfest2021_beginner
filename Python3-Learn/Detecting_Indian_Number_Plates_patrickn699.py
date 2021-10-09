@@ -12,7 +12,7 @@
 
 from INPR import inpr
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 
 #npx degit patrickn699/INPR/test_img -f
 
