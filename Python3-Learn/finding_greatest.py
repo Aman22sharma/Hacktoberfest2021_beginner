@@ -5,9 +5,9 @@
 #Add your python3 concept below
 
 
-num1 = 10
-num2 = 14
-num3 = 12
+num1 = Input("Enter First Number: ")
+num2 = Input("Enter Second Number: ")
+num3 = Input("Enter Third Number: ")
 
 if (num1 >= num2) and (num1 >= num3):
    largest = num1
