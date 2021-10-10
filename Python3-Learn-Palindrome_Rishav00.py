@@ -1,4 +1,6 @@
-
+// AUTHOR: Rishav Dutta
+// Python3 Concept: Checking a string Palindrome or not
+// GITHUB: https://github.com/Rishav-00
 
 my_str = 'aIbohPhoBiA'
 
