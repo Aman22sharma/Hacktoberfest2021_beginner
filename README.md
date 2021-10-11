@@ -36,7 +36,7 @@ example: Data-types_Aman22sharma.py
   </td>
   <td>
      <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136264790-d0559d21-505f-4141-b41d-40486a4a61a9.jpg" /></p>
-     <h6 align="center">Aman Sharma<br>Product Engineer<br>@Hylobiz, Banglore (India)</h6>
+     <h6 align="center">Aman Sharma<br>Product Engineer<br>@Hylobiz, Bangalore (India)</h6>
     <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136265064-076243f0-51bb-4b78-b967-39ff25f4833d.png" /></p>
     <h6 align="center">Shruti Shastri<br>Software Engineer<br>@32nd, Delhi (India)</h6>
   </td>
