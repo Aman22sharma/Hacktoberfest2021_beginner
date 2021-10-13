@@ -1,3 +1,9 @@
+#Author :- Suraj Bhanarkar
+#Python Concept :- Python program to print amzing pattern by string manipulation in python3
+# GitHub :- https://github.com/Dr-blue-cyber
+
+# take input from the user
+
 n = int(input("Enter the number of rows : "))
 
 ch = 64
