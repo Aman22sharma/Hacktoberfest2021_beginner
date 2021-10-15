@@ -1,0 +1,63 @@
+{
+    "sessions": [
+        {
+            "center_id": 747614,
+            "name": "NEW DELHI MEDICAL CENTRE",
+            "address": "1st Floor Hemkunt Tower Rajendra Place New Delhi",
+            "state_name": "Delhi",
+            "district_name": "Central Delhi",
+            "block_name": "Not Applicable",
+            "pincode": 110008,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 28,
+            "long": 77,
+            "fee_type": "Paid",
+            "session_id": "e10349cc-94d2-49dc-94f0-ced669b8ddd9",
+            "date": "15-10-2021",
+            "available_capacity": 700,
+            "available_capacity_dose1": 300,
+            "available_capacity_dose2": 400,
+            "fee": "780",
+            "min_age_limit": 45,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                "09:00AM-11:00AM",
+                "11:00AM-01:00PM",
+                "01:00PM-03:00PM",
+                "03:00PM-04:00PM"
+            ]
+        },
+        {
+            "center_id": 747614,
+            "name": "NEW DELHI MEDICAL CENTRE",
+            "address": "1st Floor Hemkunt Tower Rajendra Place New Delhi",
+            "state_name": "Delhi",
+            "district_name": "Central Delhi",
+            "block_name": "Not Applicable",
+            "pincode": 110008,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 28,
+            "long": 77,
+            "fee_type": "Paid",
+            "session_id": "5b7723a4-a946-4ca6-82c1-ce6591ca0247",
+            "date": "15-10-2021",
+            "available_capacity": 691,
+            "available_capacity_dose1": 300,
+            "available_capacity_dose2": 391,
+            "fee": "780",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                "09:00AM-11:00AM",
+                "11:00AM-01:00PM",
+                "01:00PM-03:00PM",
+                "03:00PM-04:00PM"
+            ]
+        }
+    ]
+}
