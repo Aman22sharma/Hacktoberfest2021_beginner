@@ -1,4 +1,8 @@
-# Created By Tanmay Pandey - Beginner Hacktober fest 2021
+//AUTHOR: Tanmay Pandey
+// Python3 Concept: lists, loops, strings, flow of control
+// GITHUB: https://github.com/tanmay013
+// Created By Tanmay Pandey - Beginner Hacktober fest 2021
+
 
 print("Welcome to computer quiz!")
 
