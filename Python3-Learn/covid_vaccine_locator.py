@@ -1,3 +1,9 @@
+# AUTHOR: Akash Das
+# Python3 Concept: Covid Vaccine Locator using resful APIs.
+# GITHUB: https://github.com/das88768
+
+# Main code.
+
 import requests
 import json
 
