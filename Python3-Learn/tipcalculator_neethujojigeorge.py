@@ -1,4 +1,3 @@
-
 # AUTHOR: Neethu Joji George
 # Python3 Concept: Tip Calculator Using Python
 # GITHUB: https://github.com/NeethuJojiGeorge
