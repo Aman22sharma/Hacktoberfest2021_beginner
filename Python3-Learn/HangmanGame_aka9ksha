@@ -1,3 +1,8 @@
+#AUTHOR: Akanksha Dube
+#Python3 Concept: Hangman game in  Python
+#GITHUB: https://github.com/aka9ksha
+
+
 # Hangman Game
 import random
 from collections import Counter
