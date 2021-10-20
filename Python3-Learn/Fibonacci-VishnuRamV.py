@@ -1,15 +1,19 @@
-def Fibonacci(n):
-    if n<0:
-        print("Incorrect input")
-    # First Fibonacci number is 0
-    elif n==0:
-        return 0
-    # Second Fibonacci number is 1
-    elif n==1:
-        return 1
-    else:
-        return Fibonacci(n-1)+Fibonacci(n-2)
- 
-# Driver Program
- 
-print(Fibonacci(9))
+
+nterms = int(input("How many terms? "))
+
+n1, n2 = 0, 1
+count = 0
+
+if nterms <= 0:
+   print("Please enter a positive integer")
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
