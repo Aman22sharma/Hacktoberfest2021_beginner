@@ -1,6 +1,3 @@
-// AUTHOR: Vishnu Ram V
-// Python3 Concept: Fibonacci sequence
-// GITHUB: github.com/vishnuramv
 
 nterms = int(input("How many terms? "))
 
