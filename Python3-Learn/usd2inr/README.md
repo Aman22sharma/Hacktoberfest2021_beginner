@@ -24,6 +24,6 @@ source .venv/bin/activate
 ### Run
 
 ```bash
-(.venv) python usd2inr.py
+(.venv) python usd2inr_diegoaceneves.py
 
 ```
