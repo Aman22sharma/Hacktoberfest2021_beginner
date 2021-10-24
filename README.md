@@ -57,7 +57,7 @@ Make a Pull Request for your changes and wait to be merged.
 
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art](https://user-images.githubusercontent.com/40789486/135641797-e71ee5a7-7a4c-4130-8376-2ea2e8ea68e5.gif)
 
-#### 2. Clone this repo to your local environment
+#### 2. Clone this repository to your local environment
 
 
 ![Copy of Colorful Neon Marble Gaming YouTube Channel Art (2)](https://user-images.githubusercontent.com/40789486/135642597-fde41ce7-13d3-4021-8350-7fee3f99ad31.gif)
