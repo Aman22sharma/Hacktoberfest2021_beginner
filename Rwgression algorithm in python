@@ -1,0 +1,43 @@
+# Let's predict a random `m` and `c`
+# or start with zero
+m = 0 # random.random()
+c = 0 # random.random()
+
+print('Minimum Error: ', error(m_a, x, c_a, y_a))
+print('Error: ', error(m, x, c, y_a))
+
+fig_size = plt.rcParams["figure.figsize"]
+fig_size[0] = 12
+fig_size[1] = 8
+plt.rcParams["figure.figsize"] = fig_size
+plt.scatter(x, y_a, s=3)
+plt.plot(x, line(m, x, c))
+
+flag = None
+
+err_list = list()
+m_list = list()
+i = 0
+lr = 0.00009 # This is very crusial.
+percision = 5
+
+while (True):
+    m_list.append(m)
+    e = error(m, x, c, y_a)
+    err_list.append(e)
+    if (i > 1000000):
+        flag = 'Stopped by end of iteration'
+        break
+    elif ( abs(error_limit - e) < percision ):
+        flag = 'Error reached under percision'
+        break
+    
+    # Using Negative Gradient
+    m -= lr * der_m(m, x, c, y_a)
+    c -= lr * der_c(m, x, c, y_a)
+    
+    i += 1
+    
+#     print(m, c)
+
+print(flag)
