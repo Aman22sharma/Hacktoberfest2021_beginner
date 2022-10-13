@@ -1,4 +1,6 @@
-
+#AUTHOR: Poonam Parate
+#Python3 Concept: Sorting & Searching DSA 
+#GITHUB: https://github.com/HeYPoonam
 
 def bubbleSort(arr):
 	n = len(arr)
