@@ -18,5 +18,3 @@ def rotateArray(arr, n, d):
 arr = [1, 2, 3, 4, 5, 6, 7]
 print("Array after left rotation is: ", end=' ')
 print(rotateArray(arr, len(arr), 2))
-
-# this code is contributed by Anabhra Tyagi
