@@ -1,0 +1,29 @@
+n=int(input('Enter n value: '))
+m=int(input('Enter m value: '))
+s1=[]
+s2=[]
+for a in range(0,n):
+    s1.append(int(input('Enter value in s1 list')))
+for b in range(0,m) :
+    s2.append(int(input('Enter value in s2 list')))
+a=0
+b=0
+cons_list=[]
+s1.sort()
+s2.sort()
+while a<n and b<m :
+    if(s1[a]<=s2[b]):
+        cons_list.append(s1[a])
+        a+=1
+    else :
+        cons_list.append(s2[b])
+        b+=1
+while a<n :
+    cons_list.append(s1[a])
+    a+=1
+while b<m :
+    cons_list.append(s2[b])
+    b+=1  
+print('the sorted and combined list is :')    
+for e in cons_list :
+    print(e)
